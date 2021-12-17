@@ -8,10 +8,7 @@ function App() {
       'https://yts.mx/api/v2/list_movies.json?minimum_rating=9&sort_by=year23.'
       )
       .then((response) => response.json())
-      .then((json) => {
-        setMovies(json.data.movies);
-        setLoading(false);
-      });
+      .then((json) => setMovies(json.data.movies));
   }, [])
   console.log(movies);
   return (
