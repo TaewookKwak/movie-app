@@ -1,4 +1,3 @@
-// To use this, need to install => npm i react-router-dom@5.3.0
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,8 +6,8 @@ import {
 import Detail from './routes/Detail';
 import Home from './routes/Home';
 function App() {
-  return (
-    <Router> 
+  return 
+  <Router>
     <Switch>
       <Route path="/movie">
         <Detail />
@@ -18,7 +17,6 @@ function App() {
       </Route>
     </Switch>
   </Router>
-  );
 }
 
 export default App;
