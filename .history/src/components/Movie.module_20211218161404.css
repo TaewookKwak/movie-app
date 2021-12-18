@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: "Frank Ruhl Libre";
+    display: flex;
+    
+    background-color: black;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border : 1px solid white;
+}
+
+.coverImg{
+    width: 300px;
+}
+
+.title{
+    color: whitesmoke;
+    text-decoration: none;
+    text-decoration-line : none;
+    font-size: 20px;
+    width: 50px;
+}
+
+.summary {
+    width: 400px;
+    color: white;
+}
+
+ul{
+    width: 300px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.genres {
+    margin: 15px;
+    color: white;
+    list-style: none;
+    border : 1px solid white;
+    padding : 5px;
+    border-radius: 10px;
+}

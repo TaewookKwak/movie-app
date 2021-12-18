@@ -1,0 +1,23 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.coverImg{
+    width: 300px;
+}
+
+.title{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.summary {
+    color: white;
+}
+
+.genres {
+    color: white;
+}

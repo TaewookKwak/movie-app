@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coverImg{
+    width: 100px;
+}

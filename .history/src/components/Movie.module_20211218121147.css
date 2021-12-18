@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction: c;
+    justify-content: center;
+}
+
+.coverImg{
+    text-align: center;
+}

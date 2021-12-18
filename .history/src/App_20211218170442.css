@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Frank Ruhl Libre";      
+    src: url("./font/FrankRuhlLibre-Regular.ttf");
+  }
+
+body{
+    margin: 0;
+    font-family: "Frank Ruhl Libre";
+    display: flex;
+    background-color: black;
+}
+
+h2{
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
