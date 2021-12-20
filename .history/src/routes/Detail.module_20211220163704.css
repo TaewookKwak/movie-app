@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+header i{
+    font-size: 50px;
+    margin: 0 15px;
+    color: yellow;
+}
+
+header .logoName {
+    font-size: 50px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 50%;
+}
+
+.movieInfo {
+    padding: 20px;
+}
+
+.title{
+    color: white;
+}
+

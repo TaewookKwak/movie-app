@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+header i{
+    font-size: 50px;
+    margin: 0 15px;
+    color: yellow;
+}
+
+header .logoName {
+    font-size: 50px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 50%;
+}
+
+.title{
+    color: white;
+}
+

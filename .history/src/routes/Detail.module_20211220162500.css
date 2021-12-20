@@ -1,0 +1,12 @@
+header {
+    display: flex;
+}
+
+header .i{
+    font-size: 30px;
+}
+
+
+.title{
+    color: white;
+}
