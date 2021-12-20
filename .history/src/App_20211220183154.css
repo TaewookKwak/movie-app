@@ -3,13 +3,16 @@
     src: url("./font/FrankRuhlLibre-Regular.ttf");
   }
 
+html {
+    background: rgb(142,116,55) no-repeat center;
+    background: linear-gradient(0deg, rgba(142,116,55,1) 0%, rgba(66,53,21,1) 16%, rgba(28,22,8,1) 40%, rgba(0,0,0,1) 100%);
+}
 
 body{
     margin: 0;
     font-family: "Frank Ruhl Libre";
     display: flex;
-    background: rgb(142,116,55) no-repeat cover;
-    background: linear-gradient(0deg, rgba(142,116,55,1) 0%, rgba(66,53,21,1) 16%, rgba(28,22,8,1) 40%, rgba(0,0,0,1) 100%);
+    
     color: white;
 }
 

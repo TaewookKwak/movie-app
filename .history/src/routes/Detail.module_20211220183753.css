@@ -77,8 +77,8 @@ section {
 
 .coverImg {
     position:relative;
-    top: -160px;
-    right: -160px;
+    top: -20px;
+    right: 20px;
     opacity: 0.5;
 }
 

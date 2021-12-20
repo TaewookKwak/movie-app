@@ -1,5 +1,6 @@
 .detail{
     justify-content: flex-start;
+    height: 120%;
 }
 
 .logo{
@@ -76,9 +77,9 @@ section {
 }
 
 .coverImg {
-    position:relative;
-    top: -160px;
-    right: -160px;
+    position: absolute;
+    top: 0;
+    right: 20px;
     opacity: 0.5;
 }
 

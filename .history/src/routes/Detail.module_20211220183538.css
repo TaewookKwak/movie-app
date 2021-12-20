@@ -76,9 +76,9 @@ section {
 }
 
 .coverImg {
-    position:relative;
-    top: -160px;
-    right: -160px;
+    position: sticky;
+    top: 0;
+    right: 20px;
     opacity: 0.5;
 }
 
