@@ -5,5 +5,7 @@
   "prettier.arrayExpand": true,
   "editor.tokenColorCustomizations": {
     "comments": "#FF0000"
-  }
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
